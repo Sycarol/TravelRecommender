@@ -503,3 +503,8 @@
     (place B4 "Australia" "Sydney")
     (place B4 "Australia" "Far-North Queensland")
 )
+
+(deffacts initStuff
+    (counter 0)
+    (place "stop" "stop" "stop")
+)
