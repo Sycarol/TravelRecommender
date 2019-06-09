@@ -92,7 +92,7 @@
 	(assert (who friends))
 	(ask-question-integer "Q: How many participants will there be?[(integers)]" size)
 	(ask-question-integer "Q: How long is the trip?(in days) [(integers)]" duration)
-	(ask-question-integer "Q: How much is your budget?(in MYR) [(integers)]" budget))
+	(ask-question-integer "Q: How much is your budget?(per person in MYR) [(integers)]" budget))
 
 
 (defrule leisure 
@@ -101,7 +101,7 @@
 	(ask-question "Q: Who is invloved in the trip? [friends/family]" who friends family)
 	(ask-question-integer "Q: How many participants will there be? [(integers)]" size)
 	(ask-question-integer "Q: How long is the trip?(in days) [(integers)]" duration)
-	(ask-question-integer "Q: How much is your budget?(in MYR) [(integers)]" budget)
+	(ask-question-integer "Q: How much is your budget?(per person in MYR) [(integers)]" budget)
 	(ask-question "Q: Do you like to walkaround?[yes/no]" walkaround yes no)
 	(ask-question "Q: Are you looking to spend money?[yes/no]" spend yes no)
 	(ask-question "Q: Do you like to take photos?[yes/no]" photos yes no)
@@ -113,7 +113,7 @@
 	(ask-question "Q: Who is invloved in the trip? [friends/family]" who friends family)
 	(ask-question-integer "Q: How many participants will there be? [(integers)]" size )
 	(ask-question-integer "Q: How long is the trip?(in days) [(integers)]" duration )
-	(ask-question-integer "Q: How much is your budget?(in MYR) [(integers)]" budget )
+	(ask-question-integer "Q: How much is your budget?(per person in MYR) [(integers)]" budget )
 	(ask-question "Q: Do you prefer indoor sports or outdoor sports? [indoor/outdoor]" location indoor outdoor )
 	(ask-question "Q: Do you prefer the sports activities to involve equipments? [yes/no]" equipment yes no )
 	(ask-question "Q: Do you prefer sports with teamwork? [yes/no]" team yes no)
