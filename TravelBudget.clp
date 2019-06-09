@@ -13,7 +13,7 @@
     (duration ?time)
     (budget ?budget)
     (not(test(> ?time 1)))
-    (test (>= ?budget 3000))
+    (test (> ?budget 3000))
 
     =>
 
@@ -35,7 +35,7 @@
     (duration ?time)
     (budget ?budget)
     (test(> ?time 1))
-    (test (>= ?budget 3000))
+    (test (> ?budget 3000))
 
     =>
 
